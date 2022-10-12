@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td:nth-child(even) {
+            background-color: #d6eeee7a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: 30%" ; height="150px">
+        <caption>TEAM DATA</caption>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Team</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Stellar</td>
+            <td>5000</td>
+            <td>Star</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rechab</td>
+            <td>3000</td>
+            <td>Ruby</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dominion</td>
+            <td>1079</td>
+            <td>Pearl</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <table style="width:70% ;">
+
+        <caption>STUDENT'S DATA</caption>
+        <tr>
+            <th style="width: 5%;">S/N</th>
+            <th style="width: 17%;" colspan="2">NAME</th>
+
+            <th style="width: 13%;" rowspan="2">DEPARTMENT</th>
+            <th style="width:13%;" rowspan="2">PHONE NUMBER</th>
+            <th style="width: 15%;" rowspan="2">DATE OF BIRTH</th>
+            <th style="width: 15%;" rowspan="2">ADDRESS</th>
+        </tr>
+
+        <tr>
+            <th></th>
+            <th> FIRST NAME</th>
+            <th> LAST NAME</th>
+
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Aina</td>
+            <td> Taiwo </td>
+            <td>C.V.E</td>
+            <td>12345678900</td>
+            <td>January 32</td>
+            <td> No 1, Yardstick, behind White house, Washington D.C</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Adebolu</td>
+            <td>Precious</td>
+            <td>M.E.E</td>
+            <td>12345678900</td>
+            <td>January 32</td>
+            <td> No 1, Yardstick, behind White house, Washington D.C</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Gold</td>
+            <td>Nifemi</td>
+            <td>A.N.A</td>
+            <td>12345678900</td>
+            <td>January 32</td>
+            <td> No 1, Yardstick, behind White house, Washington D.C</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ogunjobi</td>
+            <td>Stella</td>
+            <td>E.W.M</td>
+            <td>12345678900</td>
+            <td>January 32</td>
+            <td> No 1, Yardstick, behind White house, Washington D.C</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
